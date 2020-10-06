@@ -99,4 +99,5 @@ def get_groupby_report(path, property):
         '''
     sel = {1:'budget', 2:'fond', 3:'source'}
     for row in reader:
-        sum_plan = sum(map())
+        sum_plan = sum(map(lambda))
+        
