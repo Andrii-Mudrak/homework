@@ -95,7 +95,7 @@ def get_groupby_report(path, property):
                 'fact': сумма фактических расходов}],}
         1 - budget (budget__code), 2 - fond (fond__code), 3 - source (source__code)
         1 - budget (budget_id), 2 - fond (fond_id), 3 - source (source_id)
-        ++++++dict(zip())
+        # використати dict(zip())
         '''
     sel = {1:'budget', 2:'fond', 3:'source'}
     for row in reader:
